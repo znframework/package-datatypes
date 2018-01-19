@@ -16,7 +16,7 @@
 	},
     "autoload": {
         "psr-4": {
-            "ZN\\": ""
+            "ZN\\DataTypes\\": ""
         }
     },
 	"minimum-stability": "dev"
