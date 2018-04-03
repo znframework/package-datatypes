@@ -52,9 +52,10 @@ class Split
      * @param string $str       = NULL
      * @param string $separator = '|'
      * @param string $index     = '0'
+     * @param string $count     = '1' - added[5.6.02]
      */
-    public static function divide(String $str = NULL, String $separator = '|', String $index = '0')
+    public static function divide(String $str = NULL, String $separator = '|', String $index = '0', String $count = '1')
     {
-        return Datatype::divide($str, $separator, $index);
+        return Datatype::divide($str, $separator, $index, $count);
     }
 }
