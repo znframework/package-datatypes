@@ -1,6 +1,5 @@
 {
     "name": "znframework/package-datatypes",
-    "version": "6.18.8.11",
     "description": "ZN Framework Datatypes Package",
     "license": "MIT",
     "homepage": "https://znframework.com",
@@ -13,7 +12,7 @@
     ],
     "require": {
         "php": ">=7.0.0",
-        "znframework/package-zerocore": "6.*"
+        "znframework/package-zerocore": ">=6.0"
 	},
     "autoload": {
         "psr-4": {
